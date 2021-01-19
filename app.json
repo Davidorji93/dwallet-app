@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "dwallet",
+    "slug": "dwallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/dungada-wallet.png",
+    "splash": {
+      "image": "./assets/dungada-wallet.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/dungada-wallet.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/dungada-wallet.png"
+    }
+  }
+}
